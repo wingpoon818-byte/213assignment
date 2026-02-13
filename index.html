@@ -11,14 +11,19 @@
 <header>
     <div class="header-inner">
         <div class="logo-area">
+            <!-- 图片路径：确认仓库里是imgs/文件夹（不是images/），保持和你本地一致 -->
             <img src="imgs/59C63D9190A9328FD42F186A1D6A1835.jpg" alt="David Tao Logo" class="logo-icon">
             <span>David's Music World</span>
         </div>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="page/music.html">Music</a></li>
-                <li><a href="page/biography.html">Biography</a></li>
+                <!-- 关键修改：删掉page/，直接写music.html（和文件在同一目录） -->
+                <li><a href="music.html">Music</a></li>
+                <li><a href="biography.html">Biography</a></li>
+                <!-- 新增专辑页跳转（按你的需求加，放在导航栏更方便） -->
+                <li><a href="album-catherine.html">Catherine</a></li>
+                <li><a href="album-imok.html">I'm OK</a></li>
             </ul>
         </nav>
     </div>
@@ -30,7 +35,7 @@
         <h2 class="section-title">Introduction</h2>
         <div class="intro-content">
             <div class="avatar-wrapper">
-                <!-- Avatar Image -->
+                <!-- 图片路径保持imgs/，和你仓库里的文件夹名一致 -->
                 <img src="imgs/BF0E7AA0671F07C9180629101F73363E.jpg" alt="David Tao" class="avatar">
             </div>
             <div class="bio-text">
@@ -108,7 +113,6 @@
                 </table>
             </div>
             <div class="side-image-wrapper">
-                <!-- Side Sketch Image -->
                 <img src="imgs/38AB468266EAB33FCE8D60C74EAE5F6A.jpg" alt="David Sketch">
             </div>
         </div>
@@ -117,19 +121,20 @@
     <section class="works-section">
         <h2 class="section-title">Featured Works</h2>
         <div class="works-grid">
-            <a href="page/album-putongpengyou.html" class="work-card">
+            <!-- 关键修改：删掉page/，直接写album-*.html -->
+            <a href="album-putongpengyou.html" class="work-card">
                 <img src="imgs/BF0E7AA0671F07C9180629101F73363E.jpg" alt="Just a Friend">
                 <div class="work-title">Just a Friend</div>
             </a>
-            <a href="page/album-imok.html" class="work-card">
+            <a href="album-imok.html" class="work-card">
                 <img src="imgs/6EA1DB71C727DB7C904A3913E7FAAA67.jpg" alt="I'm OK">
                 <div class="work-title">I'm OK</div>
             </a>
-            <a href="page/album-heiseliuding.html" class="work-card">
+            <a href="album-heiseliuding.html" class="work-card">
                 <img src="imgs/06A926518365BEF247573B0F68675B8F.jpg" alt="Black Tangerine">
                 <div class="work-title">Black Tangerine</div>
             </a>
-            <a href="page/album-catherine.html" class="work-card">
+            <a href="album-catherine.html" class="work-card">
                 <img src="imgs/DBC65A1DAA116BD92F1A339BB6EA090B.jpg" alt="Catherine">
                 <div class="work-title">Catherine</div>
             </a>
